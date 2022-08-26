@@ -27,6 +27,14 @@ struct ContentView: View {
                         .foregroundColor(.secondary)
 
                 }
+        ZStack {
+                     Color.gray
+                         .opacity(0.5) // Setting the color opacity to 0.5
+                     Text("Swift Anytime")
+                         .foregroundColor(.black)
+                         .font(.largeTitle)
+                         .bold()
+                 }
     }
 }
 
