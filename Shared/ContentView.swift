@@ -15,6 +15,18 @@ struct ContentView: View {
                 .padding()
                 .foregroundColor(.white)
                 .background(Color.blue)
+        
+        VStack(alignment: .leading, spacing: 20) {
+                    
+                    Text("Swift Anytime")
+                        .bold()
+                        .font(.title)
+                        .foregroundColor(.primary)
+                    
+                    Text("Think of Swift. Think of Us.")
+                        .foregroundColor(.secondary)
+
+                }
     }
 }
 
