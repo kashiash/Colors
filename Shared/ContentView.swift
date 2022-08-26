@@ -35,6 +35,16 @@ struct ContentView: View {
                          .font(.largeTitle)
                          .bold()
                  }
+        
+        AngularGradient(colors: [.red, .green, .blue, .purple, .pink],
+                                   center: .center,
+                                   startAngle: .degrees(90),
+                                   endAngle: .degrees(360))
+        
+        RadialGradient(colors: [.red, .yellow, .blue, .green],
+                               center: .center,
+                               startRadius: 20,
+                               endRadius: 150)
     }
 }
 
